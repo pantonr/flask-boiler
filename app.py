@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import win32api
+
 
 app = Flask(__name__)
 
@@ -16,7 +16,6 @@ def do_something():
   Do something on button press.
   """
   # your code
-  win32api.MessageBox(0, 'hello', 'title')
   return res
 
 
