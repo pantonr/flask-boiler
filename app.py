@@ -16,7 +16,8 @@ def do_something():
   Do something on button press.
   """
   # your code
-  return res
+  return "Hello, Welcome to GeeksForGeeks"
+
 
 
 
