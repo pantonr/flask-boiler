@@ -10,14 +10,10 @@ def index():
 
 
 
-@app.route('/do_something')
+@app.route('/')
 def do_something():
-  """
-  Do something on button press.
-  """
-  # your code
-  return "Hello, Welcome to GeeksForGeeks"
 
+    return render_template('index.html')
 
 
 
